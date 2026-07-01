@@ -1,66 +1,73 @@
-# LEGO Mindstorms Automated Object Sorting Robot
+# Gothic & Pirate Text-Based Adventure Game
 
 ## Overview
 
-This project is an autonomous object sorting robot built using LEGO Mindstorms and Python. The robot performs a startup calibration sequence, detects a red object using a colour sensor, collects it with a motorised claw, and transports it along a predefined path before placing it in a designated collection area. The project demonstrates autonomous navigation, sensor integration, motor control, and robotics programming.
+This project is a text-based adventure game developed in Python using object-oriented programming (OOP) principles. The game features two unique levels, each with its own storyline, characters, environments, and gameplay mechanics. Players explore different locations, interact with characters, collect weapons, and complete challenges to progress through the game.
+
+The project demonstrates the use of classes, inheritance, object interaction, and modular programming to create an engaging console-based RPG experience.
 
 ## Features
 
-- Startup scanning animation with LED display.
-- Automatic motor calibration before operation.
-- Autonomous forward movement while searching for an object.
-- Detects a **red** object using a colour sensor.
-- Picks up the object using a motorised claw.
-- Navigates along a predefined path.
-- Deposits the object in the designated collection area.
-- Returns to its starting position after completing the task.
-- Uses sound effects to indicate different stages of the mission.
+- Two unique adventure levels:
+  - **Level 1:** A gothic-themed quest to defeat the demon Gojo.
+  - **Level 2:** A pirate adventure to reclaim the Phantom Ships from the Archenemy Luca.
+- Interactive text-based gameplay.
+- Multiple explorable locations connected through directional movement.
+- Friendly NPCs, enemies, and bystanders with unique dialogue.
+- Inventory system for collecting weapons and items.
+- Character interactions through commands such as **talk**, **fight**, **loot**, **steal**, **eat**, **attack**, and **help**.
+- Progression system using health points and strength.
+- Multiple weapons and collectible items required to defeat enemies.
+- Win and lose conditions based on player decisions.
 
-## Hardware
+## Object-Oriented Programming Concepts
 
-- LEGO Mindstorms Robot Inventor
-- Colour Sensor
-- Left and Right Drive Motors
-- Claw Motor
-- Arm and Head Motor
+This project demonstrates:
 
-## How It Works
+- Classes and Objects
+- Inheritance: use of parent character class for subclasses to inherit common features
+- Encapsulation: descriptions and attributes were added to the object of a class
+- Polymorphism: different classes respond differently to the same method call. 
+- Modular Programming: large program divided in to smaller, reusable modules
+- Object Interaction: objects interact with different methods 
+- Methods and Attributes: stores information to define what an object can do. 
 
-1. The robot performs a startup scanning animation and calibrates its motors.
-2. It begins moving forward while continuously scanning for a red object.
-3. When the colour sensor detects a red object, the robot stops.
-4. The arm lowers and the claw closes to pick up the object.
-5. The robot follows a programmed route to the designated drop-off location.
-6. The object is released using the claw mechanism.
-7. The robot returns to its original starting position and completes the mission.
+## Gameplay
+
+### Level 1 – Gothic Realm
+
+The player explores a dark fantasy world, collecting magical items and interacting with characters before confronting the demon Gojo. Success depends on gathering the required weapons and making strategic decisions throughout the adventure.
+
+### Level 2 – The Phantom Ships
+
+After completing the first level, the player enters a pirate-themed adventure where they travel between ships, build strength, collect valuable items, and ultimately battle the Archenemy Luca to become the leader of the Phantom Ships.
 
 ## Technologies Used
 
 - Python
-- LEGO Mindstorms Robot Inventor
-- Colour Sensor
-- Motor Control
-- Autonomous Navigation
+- Object-Oriented Programming
+- Console-Based User Interface
 
 ## Skills Demonstrated
 
-- Robotics programming
-- Sensor integration
-- Motor control
-- Object-oriented programming
-- Autonomous navigation
-- Conditional logic
+- Object-oriented software design
+- Game logic implementation
+- Class inheritance and polymorphism
+- Modular programming
+- Conditional programming
+- User input handling
+- Inventory management
 - Problem solving and debugging
 
 ## Future Improvements
 
-- Detect and sort multiple object colours.
-- Add obstacle detection and avoidance.
-- Improve navigation accuracy and efficiency.
-- Implement dynamic route planning.
-- Expand the robot to support multiple sorting bins.
+- Save and load game progress.
+- Add additional levels and storylines.
+- Introduce random enemy encounters.
+- Improve combat mechanics.
+- Add a graphical user interface (GUI).
+- Expand the inventory and character progression systems.
 
 ## Author
 
-Developed as a robotics project to demonstrate autonomous object detection, motor control, and automated object sorting using LEGO Mindstorms and Python.# Deadlight-chronicles---game
-A text-based RPG adventure game developed in Python using object-oriented programming principles. The project demonstrates the use of classes, objects, inheritance, methods, and interactive gameplay mechanics.
+Developed as an object-oriented programming project to demonstrate software engineering principles through the creation of a multi-level text-based adventure game in Python.
